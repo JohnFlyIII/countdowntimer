@@ -173,7 +173,6 @@ function twoCharacterString($text) {
 }
 
 function getTextDimensionsBasic($font,$font_size,$text) {
-    return array(100,100);
     $text_image_settings = imagettfbbox($font_size, 0, $font, $text);
     $width = $text_image_settings[4] - $text_image_settings[6];
     $height = $text_image_settings[3] - $text_image_settings[5];
