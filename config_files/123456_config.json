@@ -1,0 +1,86 @@
+{
+    "campaign_expiration_date": "2020-01-01 00:00:00",
+    "expires_soon_info":{
+        "use_info":true,
+        "type":"days",
+        "value":5
+    },
+    "desktop": {
+        "time_font": "SofiaProBlack",
+        "default":{
+            "time_font_size": 40,
+            "time_font_color": "35c4d3",
+            "background_type": "image",
+            "background_value": "123456_desktop.png",
+            "image_width": "",
+            "image_height": "",
+            "days_position": "135,375",
+            "hours_position":"265,375",
+            "minutes_position":"395,375",
+            "seconds_position":"525,375"
+        },
+        "expires_soon":{
+            "time_font_size": 40,
+            "time_font_color": "5800ff",
+            "background_type": "image",
+            "background_value": "123456_desktop_expiring.png",
+            "image_width": "",
+            "image_height": "",
+            "days_position": "135,375",
+            "hours_position":"265,375",
+            "minutes_position":"395,375",
+            "seconds_position":"525,375"
+        },
+        "expired":{
+            "time_font_size": 40,
+            "time_font_color": "000000",
+            "background_type": "image",
+            "background_value": "123456_desktop_expired.png",
+            "image_width": "",
+            "image_height": "",
+            "days_position": "135,375",
+            "hours_position":"265,375",
+            "minutes_position":"395,375",
+            "seconds_position":"525,375"
+        }
+    },
+    "mobile": {
+        "time_font": "ProximaNova-Medium",
+        "default":{
+            "time_font_size": 50,
+            "time_font_color": "35c4d3",
+            "background_type": "color",
+            "background_value": "5800ff",
+            "image_width": 480,
+            "image_height": 150,
+            "days_position": "375,135",
+            "hours_position":"100,20",
+            "minutes_position":"180,20",
+            "seconds_position":"260,20"
+        },
+        "expires_soon":{
+            "time_font_size": 50,
+            "time_font_color": "5800ff",
+            "background_type": "color",
+            "background_value": "35c4d3",
+            "image_width": 480,
+            "image_height": 150,
+            "days_position": "20,20",
+            "hours_position":"100,20",
+            "minutes_position":"180,20",
+            "seconds_position":"260,20"
+        },
+        "expired":{
+            "time_font_size": 50,
+            "time_font_color": "000000",
+            "background_type": "color",
+            "background_value": "e41720",
+            "image_width": 480,
+            "image_height": 150,
+            "days_position": "20,20",
+            "hours_position":"100,20",
+            "minutes_position":"180,20",
+            "seconds_position":"260,20"
+        }
+    }
+}
